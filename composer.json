@@ -20,22 +20,11 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "aliyunapi/php-aliyun-open-api-cdn": "~1.0 | dev-master"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "4.*"
+    "aliyunapi/guzzle-subscriber": "~1.0"
   },
   "autoload": {
     "psr-4": {
       "aliyun\\cdn\\": "src"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "aliyun\\test\\cdn\\": "tests"
-    }
-  },
-  "scripts": {
-    "test": "phpunit"
   }
 }
